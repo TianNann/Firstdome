@@ -1,3 +1,7 @@
+import conn.mt.demo.ClassCollection;
+import conn.mt.demo.User;
+
+
 
 public class First {
 
@@ -6,7 +10,13 @@ public class First {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        System.out.println("Hello World");
+        User user=new User();
+        user.usermethod();
+        System.out.println("------------------------------");
+        conn.mt.demo1.User user1=new conn.mt.demo1.User();
+        user1.usermethod();
+        ClassCollection classc=new ClassCollection();
+        //conn.mt.demo1.User
 	}
 
 }
