@@ -17,6 +17,7 @@ public class First {
         user1.usermethod();
         ClassCollection classc=new ClassCollection();
         //conn.mt.demo1.User
+        System.out.println("你好");
 	}
 
 }
