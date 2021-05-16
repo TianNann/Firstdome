@@ -1,7 +1,7 @@
-import conn.mt.demo.ClassCollection;
+package conn.mt.demo1;
+
 import conn.mt.demo.User;
-
-
+import conn.mt.demo.ClassCollection;
 
 public class First {
 
@@ -9,11 +9,10 @@ public class First {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-        User user=new User();
+	    User user=new User();
         user.usermethod();
         System.out.println("------------------------------");
-        conn.mt.demo1.User user1=new conn.mt.demo1.User();
+        User user1=new User();
         user1.usermethod();
         ClassCollection classc=new ClassCollection();
         //conn.mt.demo1.User
